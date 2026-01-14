@@ -1,0 +1,51 @@
+---
+output:
+  html_document:
+    toc: true
+    number_sections: true
+
+
+## Project Background
+
+Diabetes mellitus is a prevalent chronic disease and a major public health concern due to its long-term complications, growing healthcare costs, and negative impact on quality of life. The rising global burden of diabetes is closely linked to lifestyle changes, including physical inactivity, unhealthy diet, smoking, and increasing rates of overweight and obesity. Many individuals remain unaware of their diabetes risk until symptoms appear, reducing the effectiveness of early prevention. As a result, there is increasing demand for data-driven approaches that can detect high-risk individuals earlier and support targeted preventive healthcare strategies.
+
+Lifestyle behaviours and basic health indicators are widely recognised as key contributors to diabetes development. Common variables—such as body mass index (BMI), physical and mental health status, smoking behaviour, hypertension, and cholesterol—are frequently collected through large-scale public health surveys and provide valuable population-level insights. When analysed using data science techniques, these indicators can reveal complex patterns and relationships that may be difficult to capture using conventional statistical methods alone. Leveraging such data enables scalable risk assessment and supports evidence-based decision-making across healthcare systems.
+
+This project aims to predict diabetes risk using lifestyle and health indicators from a large, publicly available health survey dataset. It is especially relevant to healthcare stakeholders such as ministries of health, clinics, screening providers, insurers, and public health organisations seeking reliable tools to identify high-risk groups and allocate resources efficiently. Target users include policy planners, medical researchers, public health educators, and risk-prediction teams. Through exploratory data analysis and interpretable predictive modelling, the project will identify key risk factors and generate actionable insights to strengthen early detection and prevention initiatives.
+
+## Objective
+i.  Identify statistically significant lifestyle and clinical predictors of diabetes.
+ii. To develop, validate, and compare multiple predictive classification models for diabetes     risk assessment using appropriate performance metrics.
+iii.  To interpret model performance outcomes particularly sensitivity and discriminative          ability to support early diabetes screening and preventive healthcare decision-making.
+
+## Dataset Description
+
+(Write dataset details here)
+
+## 3.0 Data Preprocessing
+
+(Explain cleaning steps here)
+
+## 4.0 Exploratory Data Analysis (EDA)
+
+(Describe charts + key findings)
+
+## 5.0 Modelling Approach
+
+(Explain models used and why)
+
+## 6.0 Model Results
+
+(Accuracy/metrics + graphs)
+
+## 7.0 Discussion
+
+(Interpret results)
+
+## 8.0 Conclusion
+
+(Summary + future work)
+
+## References
+
+(List your sources)
