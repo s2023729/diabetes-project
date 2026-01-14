@@ -28,3 +28,23 @@ iii.  To interpret model performance outcomes particularly sensitivity and discr
 ## 4.0 Exploratory Data Analysis (EDA)
 
 (Describe charts + key findings)
+
+## 5.0 Modelling Approach
+
+(Explain models used and why)
+
+## 6.0 Model Results
+
+(Accuracy/metrics + graphs)
+
+## 7.0 Discussion
+
+(Interpret results)
+
+## 8.0 Conclusion
+
+(Summary + future work)
+
+## References
+
+(List your sources)
