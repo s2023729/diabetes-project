@@ -25,9 +25,18 @@ iii.  To interpret model performance outcomes particularly sensitivity and discr
 
 (Explain cleaning steps here)
 
-## 4.0 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
-(Describe charts + key findings)
+Exploratory Data Analysis (EDA) was conducted to examine the distribution, relationships, and predictive relevance of demographic, lifestyle, and clinical variables in relation to diabetes diagnosis. This analysis supports informed feature selection and guides modelling strategies by identifying both strong predictors and potential limitations within the dataset.
+
+### 3.1  Descriptive analysis
+#### 3.1.1 Data Preprocessing and outlier check
+Data quality checks identify missing values in demographic and lifestyle features such as gender, ethnicity and smoking status. Categorical imputation was conducted to replace the missing value with “Unknown” label instead of deletion to preserve data integrity. It ensures a complete clinical profile for every patient utilized in modeling and mitigates bias results. An outlier analysis was performed by using the Interquartile Range (IQR) method. The results show the outliers occur at columns diastolic BP, BMI, postprandial glucose, insulin level and cholesterol. However, all the outlier values fall within biologically plausible ranges for high-risk diabetes populations such as BMI = 35.2 (Obesity Class II) and cholesterol = 274 mg/dL (Hypercholesterolemia) (Silveira et al., 2020). Thus, all outliers were retained to prevent the loss of critical diagnostic information. 
+
+#### 3.1.2 Univariate Analysis 
+```{r univariate_plot, echo=FALSE, fig.cap="Univariate analysis"}
+knitr::include_graphics("images/one.png")
+```
 
 ## 5.0 Modelling Approach
 
